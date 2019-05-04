@@ -7,7 +7,7 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   
-  <title>刷题理解java的Comparable接口和toString方法 | Adam的博客</title>
+  <title>java Comparable接口和toString方法 | Adam的博客</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -18,14 +18,14 @@
   <meta name="description" content="​                                                            1004成绩排名 (20 分) 读入 n（&amp;gt;0）名学生的姓名、学号、成绩，分别输出成绩最高和成绩最低学生的姓名和学号。 输入格式：每个测试输入包含 1 个测试用例，格式为 12345第 1 行：正整数 n第 2 行：第 1 个学生的姓名 学号 成绩第 3 行：第 2">
 <meta name="keywords" content="排序、toString方法">
 <meta property="og:type" content="article">
-<meta property="og:title" content="刷题理解java的Comparable接口和toString方法">
+<meta property="og:title" content="java Comparable接口和toString方法">
 <meta property="og:url" content="http://yoursite.com/2019/05/04/java之Comparable接口的使用/index.html">
 <meta property="og:site_name" content="Adam的博客">
 <meta property="og:description" content="​                                                            1004成绩排名 (20 分) 读入 n（&amp;gt;0）名学生的姓名、学号、成绩，分别输出成绩最高和成绩最低学生的姓名和学号。 输入格式：每个测试输入包含 1 个测试用例，格式为 12345第 1 行：正整数 n第 2 行：第 1 个学生的姓名 学号 成绩第 3 行：第 2">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:updated_time" content="2019-05-04T09:52:59.166Z">
+<meta property="og:updated_time" content="2019-05-04T09:55:34.976Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="刷题理解java的Comparable接口和toString方法">
+<meta name="twitter:title" content="java Comparable接口和toString方法">
 <meta name="twitter:description" content="​                                                            1004成绩排名 (20 分) 读入 n（&amp;gt;0）名学生的姓名、学号、成绩，分别输出成绩最高和成绩最低学生的姓名和学号。 输入格式：每个测试输入包含 1 个测试用例，格式为 12345第 1 行：正整数 n第 2 行：第 1 个学生的姓名 学号 成绩第 3 行：第 2">
 
   
@@ -169,7 +169,7 @@ ga('send', 'pageview');
 <div class="content content-post CENTER">
    <article id="post-java之Comparable接口的使用" class="article article-type-post" itemprop="blogPost">
   <header class="article-header">
-    <h1 class="post-title">刷题理解java的Comparable接口和toString方法</h1>
+    <h1 class="post-title">java Comparable接口和toString方法</h1>
 
     <div class="article-meta">
       <span>
@@ -209,7 +209,7 @@ ga('send', 'pageview');
     
       <hr>
 
-<p>​                                                            <center><strong>1004成绩排名 (20 分)</strong><center></center></center></p>
+<p>​                                                            <strong>1004成绩排名 (20 分)</strong></p>
 <p>读入 <em>n</em>（&gt;0）名学生的姓名、学号、成绩，分别输出成绩最高和成绩最低学生的姓名和学号。</p>
 <h3 id="输入格式："><a href="#输入格式：" class="headerlink" title="输入格式："></a>输入格式：</h3><p>每个测试输入包含 1 个测试用例，格式为</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">第 1 行：正整数 n</span><br><span class="line">第 2 行：第 1 个学生的姓名 学号 成绩</span><br><span class="line">第 3 行：第 2 个学生的姓名 学号 成绩</span><br><span class="line">  ... ... ...</span><br><span class="line">第 n+1 行：第 n 个学生的姓名 学号 成绩</span><br></pre></td></tr></table></figure>
